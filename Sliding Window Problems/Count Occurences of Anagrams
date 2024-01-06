@@ -1,0 +1,49 @@
+
+
+// User function Template for Java
+
+class Solution {
+
+    int search(String pat, String txt) {
+        HashMap<Character,Integer> hmap = new HashMap<>();
+        HashMap<Character,Integer> cmap = new HashMap<>();
+        for(int i=0;i<pat.length();i++){
+            char ch = pat.charAt(i);
+            if(hmap.containsKey(ch))hmap.put(ch,hmap.get(ch)+1);
+            else hmap.put(ch,1);
+        }
+        int left = 0;
+        int right = 0;
+        int kl = pat.length();
+        int count = 0;
+        while(right<txt.length()){
+            int window = right - left + 1;
+            char curr = txt.charAt(right);
+            if(window<kl){
+                if(hmap.containsKey(curr)){
+                    if(cmap.containsKey(curr))cmap.put(curr,cmap.get(curr)+1);
+                    else cmap.put(curr,1);
+                }
+                right++;
+            }
+            else if(window==kl){
+                if(hmap.containsKey(curr)){
+                    if(cmap.containsKey(curr))cmap.put(curr,cmap.get(curr)+1);
+                    else cmap.put(curr,1);
+                }
+                if(cmap.equals(hmap))count++;
+                //System.out.println(cmap.toString());
+                right++;
+            }
+            else{
+                char leftchar = txt.charAt(left);
+                if(cmap.containsKey(leftchar)){
+                    if(cmap.containsKey(leftchar))cmap.put(leftchar,cmap.get(leftchar)-1);
+                    if(cmap.get(leftchar)==0)cmap.remove(leftchar);
+                }
+                left++;
+            }
+        }
+        return count;
+    }
+}
