@@ -1,0 +1,34 @@
+public class Solution {
+    // DO NOT MODIFY THE LIST. IT IS READ ONLY
+    public ArrayList<Integer> slidingMaximum(final List<Integer> A, int B) {
+        int left = 0;
+        int right = 0;
+        int window = 0;
+        Deque<Integer> dq = new ArrayDeque<>();
+        ArrayList<Integer> result = new ArrayList<>();
+        while(right<A.size()){
+            window = right - left + 1;
+            if(window<B){
+                int ele = A.get(right++);
+                while(dq.size()>0 && dq.getLast()<ele){
+                    dq.removeLast();
+                }
+                dq.addLast(ele);
+            }
+            else if(window==B){
+                int ele = A.get(right++);
+                while(dq.size()>0 && dq.getLast()<ele){
+                    dq.removeLast();
+                }
+                dq.addLast(ele);
+                result.add(dq.peek());
+            }
+            else{
+                int ele = A.get(left++);
+                if(ele==dq.peek())dq.removeFirst();
+            }
+        }
+        
+        return result;
+    }
+}
