@@ -1,0 +1,45 @@
+
+
+// User function Template for Java
+
+class Solution {
+    public int longestkSubstr(String s, int k) {
+        int left = 0;
+        int right = 0;
+        int window = 0;
+        int cnt = 0;
+        String ans = "";
+        int max = -1;
+        HashMap<Character,Integer> hmap = new HashMap<>();
+        while(right<s.length()){
+            window = right - left + 1;
+            char ch = s.charAt(right);
+            hmap.put(ch,hmap.getOrDefault(ch,0)+1);
+            cnt++;
+            if(hmap.size()<k){
+                right++;
+            }
+            else if(hmap.size()==k){
+                //System.out.println(hmap.toString());
+                if(cnt>max){
+                    max = cnt;
+                }
+                right++;
+            }
+            else{
+                while(hmap.size()>k){
+                    char leftch = s.charAt(left);
+                    hmap.put(leftch,hmap.get(leftch)-1);
+                    if(hmap.get(leftch)==0){
+                        hmap.remove(leftch);
+                    }
+                    cnt--;
+                    left++;
+                }
+                right++;
+            }
+            
+        }
+        return max;
+    }
+}
