@@ -23,3 +23,5 @@
 6. meeting rooms I https://www.lintcode.com/problem/920/
 7. meeting rooms II https://www.lintcode.com/problem/919/
 8. interval-list-intersections https://leetcode.com/problems/interval-list-intersections/submissions/
+9. most-profit-assigning-work https://leetcode.com/problems/most-profit-assigning-work/description/  (Two Pointer Approach)
+10. https://leetcode.com/problems/maximum-matching-of-players-with-trainers/submissions/  (Two Pointer Approach)
