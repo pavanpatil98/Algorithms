@@ -20,3 +20,6 @@
 3. insert-interval https://leetcode.com/problems/insert-interval/submissions/
 4. merge-intervals https://leetcode.com/problems/merge-intervals/submissions/
 5. non-overlapping-intervals https://leetcode.com/problems/non-overlapping-intervals/description/
+6. meeting rooms I https://www.lintcode.com/problem/920/
+7. meeting rooms II https://www.lintcode.com/problem/919/
+8. interval-list-intersections https://leetcode.com/problems/interval-list-intersections/submissions/
