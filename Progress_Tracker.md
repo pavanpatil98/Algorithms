@@ -25,3 +25,6 @@
 8. interval-list-intersections https://leetcode.com/problems/interval-list-intersections/submissions/
 9. most-profit-assigning-work https://leetcode.com/problems/most-profit-assigning-work/description/  (Two Pointer Approach)
 10. https://leetcode.com/problems/maximum-matching-of-players-with-trainers/submissions/  (Two Pointer Approach)
+
+## Day 5
+1. https://leetcode.com/problems/long-pressed-name/submissions/
