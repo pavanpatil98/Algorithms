@@ -30,3 +30,4 @@
 1. https://leetcode.com/problems/long-pressed-name/submissions/
 2. https://leetcode.com/problems/search-in-rotated-sorted-array/
 3. https://leetcode.com/problems/search-in-rotated-sorted-array-ii/submissions/
+4. https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/submissions/
