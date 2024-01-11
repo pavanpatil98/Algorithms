@@ -27,10 +27,10 @@
 10. https://leetcode.com/problems/maximum-matching-of-players-with-trainers/submissions/  (Two Pointer Approach)
 
 ## Day 5
-1. https://leetcode.com/problems/long-pressed-name/submissions/
+1. https://leetcode.com/problems/long-pressed-name/submissions/(Good Question Solve Once in a week again)
 2. https://leetcode.com/problems/search-in-rotated-sorted-array/
 3. https://leetcode.com/problems/search-in-rotated-sorted-array-ii/submissions/
 4. https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/submissions/
-5. https://leetcode.com/problems/push-dominoes/submissions/
+5. https://leetcode.com/problems/push-dominoes/submissions/(Two Pointer Approach Solve Once in a week again)
 6. https://leetcode.com/problems/contains-duplicate/
 7. https://leetcode.com/problems/two-sum/
