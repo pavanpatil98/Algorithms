@@ -39,3 +39,4 @@
 1. https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/description/?envType=daily-question&envId=2024-01-11
 2. https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/description/?envType=daily-question&envId=2024-01-10
 3. https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+4. https://leetcode.com/problems/valid-anagram/submissions/?envType=daily-question&envId=2024-01-11
