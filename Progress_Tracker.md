@@ -34,3 +34,8 @@
 5. https://leetcode.com/problems/push-dominoes/submissions/(Two Pointer Approach Solve Once in a week again)
 6. https://leetcode.com/problems/contains-duplicate/
 7. https://leetcode.com/problems/two-sum/
+
+##Day 6 Jan 11
+1. https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/description/?envType=daily-question&envId=2024-01-11
+2. https://leetcode.com/problems/amount-of-time-for-binary-tree-to-be-infected/description/?envType=daily-question&envId=2024-01-10
+3. https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
