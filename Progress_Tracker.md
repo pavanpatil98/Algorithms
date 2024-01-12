@@ -42,3 +42,10 @@
 4. https://leetcode.com/problems/valid-anagram/submissions/?envType=daily-question&envId=2024-01-11
 5. https://leetcode.com/problems/product-of-array-except-self/submissions/
 6. https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/submissions/
+
+## Day 7 Jan 12
+1. https://leetcode.com/problems/leaf-similar-trees/?envType=daily-question&envId=2024-01-09
+2. https://leetcode.com/problems/determine-if-string-halves-are-alike/
+3. https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/
+4. https://leetcode.com/problems/missing-number/
+5. https://leetcode.com/problems/remove-duplicates-from-sorted-array/
