@@ -60,7 +60,7 @@
 
 ## Day 9 Jan 14
 1. https://leetcode.com/problems/summary-ranges/
-2. https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
+2. https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/ (# try again)
 3. https://leetcode.com/problems/determine-if-two-strings-are-close/
 4. https://leetcode.com/problems/reverse-words-in-a-string/
 5. https://leetcode.com/problems/increasing-triplet-subsequence/
