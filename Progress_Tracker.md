@@ -49,3 +49,18 @@
 3. https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/
 4. https://leetcode.com/problems/missing-number/
 5. https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+
+## Day 8 Jan 13
+1. https://leetcode.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/
+2. https://leetcode.com/problems/range-sum-of-bst/
+3. https://leetcode.com/problems/arithmetic-slices/
+4. https://leetcode.com/problems/arithmetic-slices-ii-subsequence/(hard)
+5. https://leetcode.com/problems/assign-cookies/(easy)
+6. https://leetcode.com/problems/length-of-last-word/(easy)
+
+## Day 9 Jan 14
+1. https://leetcode.com/problems/summary-ranges/
+2. https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/
+3. https://leetcode.com/problems/determine-if-two-strings-are-close/
+4. https://leetcode.com/problems/reverse-words-in-a-string/
+5. https://leetcode.com/problems/increasing-triplet-subsequence/
