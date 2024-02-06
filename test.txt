@@ -1,0 +1,73 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class HelloWorld {
+    public static void printMatrix(int[][] matrix,int sr,int er,int sc,int ec){
+        //System.out.print("{ ");
+        for(int i=sr;i<=er;i++){
+            for(int j=sc;j<=ec;j++){
+                System.out.print(matrix[i][j]+" ");
+            }
+            //System.out.print("}");
+            System.out.println("");
+        }
+        System.out.println("===============================");
+    }
+    public static int getSum(int[][] matrix,int sr,int er,int sc,int ec){
+        //System.out.print("{ ");
+        int sum = 0;
+        for(int i=sr;i<=er;i++){
+            for(int j=sc;j<=ec;j++){
+                sum+=matrix[i][j];
+            }
+        }
+        return sum;
+    }
+    public static int getNSum(int[][] matrix,int sr,int er,int sc,int ec){
+        //System.out.print("{ ");
+        
+        //printMatrix(matrix,sr,er,sc,ec);
+        int sum = 0;
+        for(int i=sr;i<=er;i++){
+            if(sc>0)
+            sum+=matrix[i][ec]-matrix[i][sc-1];
+            else
+            sum+=matrix[i][ec];
+        }
+        return sum;
+    }
+    public static int[][] getPSumMatrix(int[][] matrix){
+        int sum = 0;
+        for(int i=0;i<matrix.length;i++){
+            sum = 0;
+            for(int j=0;j<matrix[0].length;j++){
+                sum+=matrix[i][j];
+                matrix[i][j] = sum;
+            }
+        }
+        return matrix;
+    }
+    public static void main(String[] args) {
+        int[][] arr = {{1,2,3},{4,5,6},{7,8,9}};
+        int cnt = 0;
+        int rows = arr.length;
+        int cols = arr[0].length;
+        int[][] arr1 = new int[arr.length][arr.length];
+        for(int i=0;i<rows;i++)for(int j=0;j<cols;j++)arr1[i][j] = arr[i][j];
+        arr = getPSumMatrix(arr);
+        for(int sr=0;sr<rows;sr++){
+            for(int er=sr;er<rows;er++){
+                for(int sc=0;sc<cols;sc++){
+                    for(int ec=sc;ec<cols;ec++){
+                      //System.out.print("(--"+sr+"--"+er+"--"+sc+"--"+ec+"--)");
+                        if(getNSum(arr,sr,er,sc,ec)==5){
+                            cnt++;
+                            printMatrix(arr1,sr,er,sc,ec);
+                        }
+                        
+                    }
+                }
+            }
+        }
+    }
+}
