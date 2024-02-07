@@ -64,3 +64,6 @@
 3. https://leetcode.com/problems/determine-if-two-strings-are-close/
 4. https://leetcode.com/problems/reverse-words-in-a-string/
 5. https://leetcode.com/problems/increasing-triplet-subsequence/
+
+6. ## Day X Feb 8 
+https://www.geeksforgeeks.org/problems/largest-sum-subarray-of-size-at-least-k3121/1
